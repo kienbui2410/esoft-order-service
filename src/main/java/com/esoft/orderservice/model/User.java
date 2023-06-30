@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "esoft_user")
@@ -22,4 +24,7 @@ public class User {
     private String username;
     private String password;
     private Boolean enabled;
+    @OneToMany( cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "user_id")
+    private Set<Authority> authorities = new HashSet<>();
 }

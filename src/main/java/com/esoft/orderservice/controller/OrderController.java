@@ -18,7 +18,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-//@RequestMapping("/order")
+@RequestMapping("/order")
 @Slf4j
 public class OrderController {
 

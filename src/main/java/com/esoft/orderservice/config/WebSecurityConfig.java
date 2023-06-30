@@ -52,6 +52,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //                .cors() // Ngăn chặn request từ một domain khác
 //                .and()
                 .authorizeRequests()
+                .antMatchers("/order/**").hasAnyRole("USER")
+                .antMatchers("/report/**").hasAnyRole("ADMIN")
                 .antMatchers("/user/**").permitAll() // Cho phép tất cả mọi người truy cập vào địa chỉ này
                 .anyRequest().authenticated(); // Tất cả các request khác đều cần phải xác thực mới được truy cập
 

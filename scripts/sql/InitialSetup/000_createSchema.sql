@@ -7,13 +7,14 @@ create table esoft_user(
 );
 -- table role
 create table esoft_authority (
+    id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	user_id bigint not null,
 	authority varchar(50) not null,
 	constraint fk_esoft_authority_user foreign key(user_id) references esoft_user(id)
 );
 create unique index ix_auth_username on esoft_authority (user_id,authority);
 
--- password: passwrod1
+-- password: password1
 insert into esoft_user(id,username,password,enabled)
 values(1,'esoft_admin','$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq',true);
 -- Role của admin
