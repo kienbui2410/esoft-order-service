@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/user")
 @Slf4j
 public class UserController {
 
@@ -31,19 +31,23 @@ public class UserController {
     @Autowired
     private JwtTokenProvider tokenProvider;
 
-    @PostMapping("/login")
+    @PostMapping("/token")
     public LoginResponse authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
 
         logger.error("authenticateUser>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-
-        // Xác thực từ username và password.
-        Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(
-                        loginRequest.getUsername(),
-                        loginRequest.getPassword()
-                )
-        );
-
+        Authentication authentication = null;
+        try {
+            // Xác thực từ username và password.
+            authentication = authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            loginRequest.getUsername(),
+                            loginRequest.getPassword()
+                    )
+            );
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+        logger.error("2authenticateUser>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         // Nếu không xảy ra exception tức là thông tin hợp lệ
         // Set thông tin authentication vào Security Context
         SecurityContextHolder.getContext().setAuthentication(authentication);
