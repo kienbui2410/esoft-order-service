@@ -21,4 +21,5 @@ public class User {
     @Column(nullable = false, unique = true)
     private String username;
     private String password;
+    private Boolean enabled;
 }

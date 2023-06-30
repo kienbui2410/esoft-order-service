@@ -21,13 +21,23 @@ public class Order {
     private String ref;
     @Column(name = "user_id")
     private Long userId;
-    private String category;
+    @Enumerated(EnumType.STRING)
+    private Category category;
     private Long quantity;
     @Column(name = "service_name")
-    private String serviceName;
+    @Enumerated(EnumType.STRING)
+    private ServiceName serviceName;
     @Column(name = "create_at")
     private Date createdAt;
+    @Column(name="description")
     private String desc;
     private String note;
 
+    public enum Category {
+        LUXURY, SUPER_LUXURY, SUPREME_LUXURY;
+    }
+
+    public enum ServiceName {
+        PHOTO_EDITING, VIDEO_EDITING;
+    }
 }

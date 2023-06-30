@@ -16,10 +16,18 @@ public interface OrderRepo extends JpaRepository<Order, Long>,OrderCustomerRepo 
     @Query(value = "select count(*) from esoft_order where user_id = :userId", nativeQuery = true)
     Long countOrder(@Param("userId") Long userId);
 
-//    Long countOrderByPeriod(User user);
+    @Query(value = "select count(*) from esoft_order where user_id = :userId and YEAR(create_at) = :year", nativeQuery = true)
+    Long countOrderByPeriod(@Param("userId") Long userId, @Param("year") Integer year);
+
+    @Query(value = "select count(*) from esoft_order where user_id = :userId and YEAR(create_at) = :year and MONTH(create_at) = :month", nativeQuery = true)
+    Long countOrderByPeriod(@Param("userId") Long userId, @Param("year") Integer year, @Param("month") Integer month);
 
     @Query(value = "select sum(quantity) from esoft_order where user_id = :userId", nativeQuery = true)
     Long getRevenueOrder(@Param("userId") Long userId);
 
-//    Long getRevenueOrderByPeriod(User user);
+    @Query(value = "select sum(quantity) from esoft_order where user_id = :userId and YEAR(create_at) = :year", nativeQuery = true)
+    Long getRevenueOrderByPeriod(@Param("userId") Long userId, @Param("year") Integer year);
+
+    @Query(value = "select sum(quantity) from esoft_order where user_id = :userId and YEAR(create_at) = :year and MONTH(create_at) = :month", nativeQuery = true)
+    Long getRevenueOrderByPeriod(@Param("userId") Long userId, @Param("year") Integer year, @Param("month") Integer month);
 }

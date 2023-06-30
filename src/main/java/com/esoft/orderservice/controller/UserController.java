@@ -4,7 +4,6 @@ package com.esoft.orderservice.controller;
 import com.esoft.orderservice.helper.jwt.JwtTokenProvider;
 import com.esoft.orderservice.helper.payload.LoginRequest;
 import com.esoft.orderservice.helper.payload.LoginResponse;
-import com.esoft.orderservice.helper.payload.RandomStuff;
 import com.esoft.orderservice.model.CustomUserDetails;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -47,7 +46,6 @@ public class UserController {
         }catch (Exception ex){
             ex.printStackTrace();
         }
-        logger.error("2authenticateUser>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         // Nếu không xảy ra exception tức là thông tin hợp lệ
         // Set thông tin authentication vào Security Context
         SecurityContextHolder.getContext().setAuthentication(authentication);
@@ -56,11 +54,4 @@ public class UserController {
         String jwt = tokenProvider.generateToken((CustomUserDetails) authentication.getPrincipal());
         return new LoginResponse(jwt);
     }
-
-    // Api /api/random yêu cầu phải xác thực mới có thể request
-    @GetMapping("/random")
-    public RandomStuff randomStuff(){
-        return new RandomStuff("JWT Hợp lệ mới có thể thấy được message này");
-    }
-
 }

@@ -59,7 +59,23 @@ public class OrderService {
         return orderRepo.countOrder(userId);
     }
 
+    public Long countOrder(Long userId, Integer year){
+        return orderRepo.countOrderByPeriod(userId, year);
+    }
+
+    public Long countOrder(Long userId, Integer year, Integer month){
+        return orderRepo.countOrderByPeriod(userId, year, month);
+    }
+
     public Long getRevenueOrder(Long userId){
         return orderRepo.getRevenueOrder(userId);
+    }
+
+    public Long getRevenueOrder(Long userId, Integer year){
+        return orderRepo.getRevenueOrderByPeriod(userId, year);
+    }
+
+    public Long getRevenueOrder(Long userId, Integer year, Integer month){
+        return orderRepo.getRevenueOrderByPeriod(userId, year, month);
     }
 }
