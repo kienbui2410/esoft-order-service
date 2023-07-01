@@ -36,7 +36,8 @@ CREATE TABLE esoft_order (
     service_name ENUM('PHOTO_EDITING', 'VIDEO_EDITING'),
     create_at date,
     description  varchar(255),
-    note varchar(255)
+    note varchar(255),
+    price DECIMAL(19,2) DEFAULT 0
 );
 
 CREATE INDEX esoft_order_id ON esoft_order (id);

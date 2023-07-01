@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
@@ -32,6 +33,7 @@ public class Order {
     @Column(name="description")
     private String desc;
     private String note;
+    private BigDecimal price;
 
     public enum Category {
         LUXURY, SUPER_LUXURY, SUPREME_LUXURY;

@@ -18,7 +18,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/order")
+//@RequestMapping("/orders")
 @Slf4j
 public class OrderController {
 
@@ -27,7 +27,7 @@ public class OrderController {
     @Autowired
     OrderService orderService;
 
-    @PostMapping("/create")
+    @PostMapping("/orders")
     public ResponseEntity<Order> createOrder(@Valid  @RequestBody Order order) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -40,7 +40,7 @@ public class OrderController {
         }
     }
 
-    @PostMapping("/update")
+    @PutMapping("/orders")
     public ResponseEntity<Order> updateOrder(@Valid @RequestBody Order order) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -53,7 +53,7 @@ public class OrderController {
         }
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/orders/{id}")
     public ResponseEntity<HttpStatus> deleteOrder(@PathVariable("id") long orderId) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -66,7 +66,7 @@ public class OrderController {
         }
     }
 
-    @GetMapping("/list")
+    @GetMapping("/orders")
     public ResponseEntity<List<Order>> listByUserId(){
         try{
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();

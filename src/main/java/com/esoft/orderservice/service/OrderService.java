@@ -1,27 +1,40 @@
 package com.esoft.orderservice.service;
 
+import com.esoft.orderservice.common.DateUtil;
 import com.esoft.orderservice.model.Order;
 import com.esoft.orderservice.model.User;
 import com.esoft.orderservice.repo.OrderRepo;
+import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;
 
 @Service
 public class OrderService {
 
+    private static final String REF_PREFIX = "ODR";
+    private static final String REF_DELIMITER = "-";
+
     @Autowired
     OrderRepo orderRepo;
 
+    @Transactional
     public Order create(Order order, User user){
         order.setUserId(user.getId());
         order.setCreatedAt(new Date());
+        order =  orderRepo.save(order);
+
+        String ref = REF_PREFIX + REF_DELIMITER + DateUtil.convertDateToString(order.getCreatedAt())
+                + REF_DELIMITER + String.valueOf(order.getId());
+        order.setRef(ref);
         return orderRepo.save(order);
     }
 
+    @Transactional
     public Order update(Order order, User user) throws Exception{
         if(orderRepo.existsById(order.getId())) {
             if(order.getUserId().compareTo(user.getId()) == 0) {
@@ -34,6 +47,7 @@ public class OrderService {
         }
     }
 
+    @Transactional
     public void delete(Long orderId, User user) throws Exception{
         if(orderRepo.existsById(orderId)) {
             Order order = orderRepo.getOne(orderId);
@@ -59,23 +73,23 @@ public class OrderService {
         return orderRepo.countOrder(userId);
     }
 
-    public Long countOrder(Long userId, Integer year){
-        return orderRepo.countOrderByPeriod(userId, year);
+    public Long countOrderByPeriod(Integer year){
+        return orderRepo.countOrderByPeriod(year);
     }
 
-    public Long countOrder(Long userId, Integer year, Integer month){
-        return orderRepo.countOrderByPeriod(userId, year, month);
+    public Long countOrderByPeriod(Integer year, Integer month){
+        return orderRepo.countOrderByPeriod(year, month);
     }
 
     public Long getRevenueOrder(Long userId){
         return orderRepo.getRevenueOrder(userId);
     }
 
-    public Long getRevenueOrder(Long userId, Integer year){
-        return orderRepo.getRevenueOrderByPeriod(userId, year);
+    public Long getRevenueOrderByPeriod(Integer year){
+        return orderRepo.getRevenueOrderByPeriod(year);
     }
 
-    public Long getRevenueOrder(Long userId, Integer year, Integer month){
-        return orderRepo.getRevenueOrderByPeriod(userId, year, month);
+    public Long getRevenueOrderByPeriod(Integer year, Integer month){
+        return orderRepo.getRevenueOrderByPeriod(year, month);
     }
 }
