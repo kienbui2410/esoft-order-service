@@ -1,3 +1,8 @@
+-- drop all table
+drop table if existsesoft_authority;
+drop table if exists esoft_user;
+drop table if exists esoft_order;
+
 -- table users
 create table esoft_user(
     id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -41,3 +46,5 @@ CREATE TABLE esoft_order (
 );
 
 CREATE INDEX esoft_order_id ON esoft_order (id);
+
+COMMIT;

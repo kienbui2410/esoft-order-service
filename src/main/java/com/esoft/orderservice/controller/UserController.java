@@ -54,4 +54,10 @@ public class UserController {
         String jwt = tokenProvider.generateToken((CustomUserDetails) authentication.getPrincipal());
         return new LoginResponse(jwt);
     }
+
+    @GetMapping("/helloworld")
+    public String helloworld(){
+        return new String("helloworld");
+    }
+
 }
