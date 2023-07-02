@@ -1,5 +1,5 @@
 -- drop all table
-drop table if existsesoft_authority;
+drop table if exists esoft_authority;
 drop table if exists esoft_user;
 drop table if exists esoft_order;
 

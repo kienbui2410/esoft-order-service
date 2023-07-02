@@ -1,6 +1,7 @@
 package com.esoft.orderservice.controller;
 
 
+import com.esoft.orderservice.aspect.TrackExecutionTime;
 import com.esoft.orderservice.model.CustomUserDetails;
 import com.esoft.orderservice.model.Order;
 import com.esoft.orderservice.model.User;
@@ -27,6 +28,7 @@ public class OrderController {
     @Autowired
     OrderService orderService;
 
+    @TrackExecutionTime
     @PostMapping("/orders")
     public ResponseEntity<Order> createOrder(@Valid  @RequestBody Order order) {
         try {
@@ -66,6 +68,7 @@ public class OrderController {
         }
     }
 
+    @TrackExecutionTime
     @GetMapping("/orders")
     public ResponseEntity<List<Order>> listByUserId(){
         try{

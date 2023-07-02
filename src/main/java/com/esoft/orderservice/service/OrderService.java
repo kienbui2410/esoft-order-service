@@ -38,6 +38,9 @@ public class OrderService {
     public Order update(Order order, User user) throws Exception{
         if(orderRepo.existsById(order.getId())) {
             if(order.getUserId().compareTo(user.getId()) == 0) {
+//                Order orderDb = orderRepo.getOne(order.getId());
+//                order.setRef(orderDb.getRef());
+//                order.setCreatedAt(orderDb.getCreatedAt());
                 return orderRepo.save(order);
             }else{
                 throw new Exception("Order is not belong to the user "+user.getUsername());

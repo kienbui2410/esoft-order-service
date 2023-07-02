@@ -1,6 +1,7 @@
 package com.esoft.orderservice.controller;
 
 
+import com.esoft.orderservice.aspect.TrackExecutionTime;
 import com.esoft.orderservice.helper.payload.ReportResponse;
 import com.esoft.orderservice.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,7 @@ public class ReportController {
     @Autowired
     OrderService orderService;
 
+    @TrackExecutionTime
     @GetMapping("/users/{id}/order-number")
     public ResponseEntity<Long> getNoOrder(@PathVariable("id") Long userId){
         try{
@@ -34,6 +36,7 @@ public class ReportController {
         }
     }
 
+    @TrackExecutionTime
     @GetMapping("/users/{id}/revenue")
     public ResponseEntity<Long> getRevenue(@PathVariable("id") Long userId){
         try{
@@ -45,6 +48,7 @@ public class ReportController {
         }
     }
 
+    @TrackExecutionTime
     @GetMapping("/order-revenue-summary/year/{year}")
     public ReportResponse getOrderRevenueSummary(@PathVariable("year") Integer year){
         logger.info("order-revenue-summary year " + year);
@@ -56,6 +60,7 @@ public class ReportController {
         return new ReportResponse(noOfOrder, rev);
     }
 
+    @TrackExecutionTime
     @GetMapping("/order-revenue-summary/year/{year}/month/{month}")
     public ReportResponse getOrderRevenueSummary(@PathVariable("year") Integer year,@PathVariable("month") Integer month){
         logger.info("order-revenue-summary year " + year + " month " + month);

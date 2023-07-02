@@ -1,0 +1,1514 @@
+02-07-2023 18:01:52 DEBUG RepositoryConfigurationDelegate:121 - Scanning for repositories in packages com.esoft.orderservice.
+02-07-2023 18:01:52 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: userRepo - Interface: com.esoft.orderservice.repo.UserRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:01:52 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: orderRepo - Interface: com.esoft.orderservice.repo.OrderRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:01:52 DEBUG RepositoryConfigurationDelegate:153 - Finished repository scanning.
+02-07-2023 18:01:54 INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+02-07-2023 18:01:54 INFO  StandardService:180 - Starting service [Tomcat]
+02-07-2023 18:01:54 INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+02-07-2023 18:01:54 INFO  AprLifecycleListener:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\SETUPS\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;F:\WORKS\INTEGRO\apache-ant-1.9.7\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;.]
+02-07-2023 18:01:54 INFO  [/api/v1/order-service]:180 - Initializing Spring embedded WebApplicationContext
+02-07-2023 18:01:55 INFO  StandardService:180 - Stopping service [Tomcat]
+02-07-2023 18:27:31 DEBUG RepositoryConfigurationDelegate:121 - Scanning for repositories in packages com.esoft.orderservice.
+02-07-2023 18:27:31 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: userRepo - Interface: com.esoft.orderservice.repo.UserRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:27:31 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: orderRepo - Interface: com.esoft.orderservice.repo.OrderRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:27:31 DEBUG RepositoryConfigurationDelegate:153 - Finished repository scanning.
+02-07-2023 18:27:34 INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+02-07-2023 18:27:34 INFO  StandardService:180 - Starting service [Tomcat]
+02-07-2023 18:27:34 INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+02-07-2023 18:27:34 INFO  AprLifecycleListener:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\SETUPS\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;F:\WORKS\INTEGRO\apache-ant-1.9.7\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;.]
+02-07-2023 18:27:34 INFO  [/api/v1/order-service]:180 - Initializing Spring embedded WebApplicationContext
+02-07-2023 18:27:35 DEBUG HikariConfig:495 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: api#v1#order-service
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52f48edb
+
+02-07-2023 18:27:35 DEBUG HikariConfig:1119 - HikariPool-1 - configuration:
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - allowPoolSuspension.............false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - autoCommit......................true
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - catalog.........................none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - connectionInitSql...............none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - connectionTestQuery.............none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - connectionTimeout...............30000
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - dataSource......................none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - dataSourceClassName.............none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - dataSourceJNDI..................none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - dataSourceProperties............{password=<masked>}
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - driverClassName................."com.mysql.jdbc.Driver"
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - healthCheckProperties...........{}
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - healthCheckRegistry.............none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - idleTimeout.....................600000
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - initializationFailFast..........true
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - initializationFailTimeout.......1
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - isolateInternalQueries..........false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - jdbc4ConnectionTest.............false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - jdbcUrl.........................jdbc:mysql://db4free.net:3306/e_odr_db?useSSL=false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - leakDetectionThreshold..........0
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - maxLifetime.....................1800000
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - maximumPoolSize.................10
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - metricRegistry..................none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - metricsTrackerFactory...........none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - minimumIdle.....................10
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - password........................<masked>
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - poolName........................"HikariPool-1"
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - readOnly........................false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - registerMbeans..................false
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - scheduledExecutor...............none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - scheduledExecutorService........internal
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - schema..........................none
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - threadFactory...................internal
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - transactionIsolation............default
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - username........................"esoft_ad"
+02-07-2023 18:27:35 DEBUG HikariConfig:1151 - validationTimeout...............5000
+02-07-2023 18:27:35 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+02-07-2023 18:27:38 DEBUG HikariPool:538 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@41b4c36c
+02-07-2023 18:27:38 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+02-07-2023 18:27:38 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02-07-2023 18:27:40 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@efd3f94
+02-07-2023 18:27:42 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6ed2c0db
+02-07-2023 18:27:44 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6a9c5ab0
+02-07-2023 18:27:46 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@9396149
+02-07-2023 18:27:46 DEBUG JpaMetamodelMappingContextFactoryBean:77 - Initializing JpaMetamodelMappingContext…
+02-07-2023 18:27:46 DEBUG JpaMetamodelMappingContextFactoryBean:84 - Finished initializing JpaMetamodelMappingContext!
+02-07-2023 18:27:47 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.UserRepo…
+02-07-2023 18:27:47 DEBUG JpaQueryFactory:55 - Looking up query for method findByUsername
+02-07-2023 18:27:47 DEBUG NamedQuery:138 - Looking up named query User.findByUsername
+02-07-2023 18:27:47 DEBUG NamedQuery:119 - Did not find named query User.findByUsername
+02-07-2023 18:27:47 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.UserRepo.
+02-07-2023 18:27:47 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@819a9e4
+02-07-2023 18:27:48 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.OrderRepo…
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrder
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method findByUserId
+02-07-2023 18:27:48 DEBUG NamedQuery:138 - Looking up named query Order.findByUserId
+02-07-2023 18:27:48 DEBUG NamedQuery:119 - Did not find named query Order.findByUserId
+02-07-2023 18:27:48 DEBUG JpaQueryFactory:55 - Looking up query for method countOrder
+02-07-2023 18:27:48 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.OrderRepo.
+02-07-2023 18:27:51 DEBUG Loggers$LoggerFactory:213 - Using Slf4j logging framework
+02-07-2023 18:27:51 DEBUG Hooks:213 - Enabling stacktrace debugging via onOperatorDebug
+02-07-2023 18:27:51 DEBUG Hooks:218 - Hooking onEachOperator: onOperatorDebug
+02-07-2023 18:27:51 INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+02-07-2023 18:27:51 INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+02-07-2023 18:27:54 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@183dfdc9
+02-07-2023 18:28:02 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1c5a4f93
+02-07-2023 18:28:04 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@17143e46
+02-07-2023 18:28:06 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@530e900c
+02-07-2023 18:28:06 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:28:08 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:28:11 INFO  [/api/v1/order-service]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+02-07-2023 18:28:11 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 18:28:14 INFO  OrderController:76 - listByUserId user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:28:14 INFO  ExecutionTimeAdvice:23 - Class Name: com.esoft.orderservice.controller.OrderController. Method Name: listByUserId. Time taken for Execution is : 872ms
+02-07-2023 18:28:38 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:28:59 INFO  OrderController:76 - listByUserId user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:29:00 INFO  ExecutionTimeAdvice:23 - Class Name: com.esoft.orderservice.controller.OrderController. Method Name: listByUserId. Time taken for Execution is : 250ms
+02-07-2023 18:29:08 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:29:38 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:30:08 INFO  OrderController:76 - listByUserId user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:30:08 INFO  ExecutionTimeAdvice:23 - Class Name: com.esoft.orderservice.controller.OrderController. Method Name: listByUserId. Time taken for Execution is : 360ms
+02-07-2023 18:30:08 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:30:17 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:30:18 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'existsById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 18:30:18 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+02-07-2023 18:30:27 INFO  OrderController:76 - listByUserId user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:30:28 INFO  ExecutionTimeAdvice:23 - Class Name: com.esoft.orderservice.controller.OrderController. Method Name: listByUserId. Time taken for Execution is : 258ms
+02-07-2023 18:30:43 DEBUG RepositoryConfigurationDelegate:121 - Scanning for repositories in packages com.esoft.orderservice.
+02-07-2023 18:30:44 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: orderRepo - Interface: com.esoft.orderservice.repo.OrderRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:30:44 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: userRepo - Interface: com.esoft.orderservice.repo.UserRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 18:30:44 DEBUG RepositoryConfigurationDelegate:153 - Finished repository scanning.
+02-07-2023 18:30:46 INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+02-07-2023 18:30:46 INFO  StandardService:180 - Starting service [Tomcat]
+02-07-2023 18:30:46 INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+02-07-2023 18:30:46 INFO  AprLifecycleListener:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\SETUPS\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;F:\WORKS\INTEGRO\apache-ant-1.9.7\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;.]
+02-07-2023 18:30:46 INFO  [/api/v1/order-service]:180 - Initializing Spring embedded WebApplicationContext
+02-07-2023 18:30:47 DEBUG HikariConfig:495 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: api#v1#order-service
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@585ae4e6
+
+02-07-2023 18:30:47 DEBUG HikariConfig:1119 - HikariPool-1 - configuration:
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - allowPoolSuspension.............false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - autoCommit......................true
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - catalog.........................none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - connectionInitSql...............none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - connectionTestQuery.............none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - connectionTimeout...............30000
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - dataSource......................none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - dataSourceClassName.............none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - dataSourceJNDI..................none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - dataSourceProperties............{password=<masked>}
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - driverClassName................."com.mysql.jdbc.Driver"
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - healthCheckProperties...........{}
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - healthCheckRegistry.............none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - idleTimeout.....................600000
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - initializationFailFast..........true
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - initializationFailTimeout.......1
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - isolateInternalQueries..........false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - jdbc4ConnectionTest.............false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - jdbcUrl.........................jdbc:mysql://db4free.net:3306/e_odr_db?useSSL=false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - leakDetectionThreshold..........0
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - maxLifetime.....................1800000
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - maximumPoolSize.................10
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - metricRegistry..................none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - metricsTrackerFactory...........none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - minimumIdle.....................10
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - password........................<masked>
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - poolName........................"HikariPool-1"
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - readOnly........................false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - registerMbeans..................false
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - scheduledExecutor...............none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - scheduledExecutorService........internal
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - schema..........................none
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - threadFactory...................internal
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - transactionIsolation............default
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - username........................"esoft_ad"
+02-07-2023 18:30:47 DEBUG HikariConfig:1151 - validationTimeout...............5000
+02-07-2023 18:30:47 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+02-07-2023 18:30:50 DEBUG HikariPool:538 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@65a0f50c
+02-07-2023 18:30:50 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+02-07-2023 18:30:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02-07-2023 18:30:52 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3862422a
+02-07-2023 18:30:54 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a9d9a1
+02-07-2023 18:30:55 DEBUG JpaMetamodelMappingContextFactoryBean:77 - Initializing JpaMetamodelMappingContext…
+02-07-2023 18:30:55 DEBUG JpaMetamodelMappingContextFactoryBean:84 - Finished initializing JpaMetamodelMappingContext!
+02-07-2023 18:30:55 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.UserRepo…
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method findByUsername
+02-07-2023 18:30:55 DEBUG NamedQuery:138 - Looking up named query User.findByUsername
+02-07-2023 18:30:55 DEBUG NamedQuery:119 - Did not find named query User.findByUsername
+02-07-2023 18:30:55 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.UserRepo.
+02-07-2023 18:30:55 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@105bfd3b
+02-07-2023 18:30:55 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.OrderRepo…
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrder
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 18:30:55 DEBUG JpaQueryFactory:55 - Looking up query for method findByUserId
+02-07-2023 18:30:56 DEBUG NamedQuery:138 - Looking up named query Order.findByUserId
+02-07-2023 18:30:56 DEBUG NamedQuery:119 - Did not find named query Order.findByUserId
+02-07-2023 18:30:56 DEBUG JpaQueryFactory:55 - Looking up query for method countOrder
+02-07-2023 18:30:56 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.OrderRepo.
+02-07-2023 18:30:58 DEBUG Loggers$LoggerFactory:213 - Using Slf4j logging framework
+02-07-2023 18:30:58 DEBUG Hooks:213 - Enabling stacktrace debugging via onOperatorDebug
+02-07-2023 18:30:58 DEBUG Hooks:218 - Hooking onEachOperator: onOperatorDebug
+02-07-2023 18:30:59 INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+02-07-2023 18:30:59 INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+02-07-2023 18:31:02 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a8dde52
+02-07-2023 18:31:04 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@28c1faf5
+02-07-2023 18:31:06 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@55470a13
+02-07-2023 18:31:13 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@550f0fa3
+02-07-2023 18:31:16 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3ec182d5
+02-07-2023 18:31:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 18:31:23 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@37e83522
+02-07-2023 18:31:23 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:31:34 INFO  [/api/v1/order-service]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+02-07-2023 18:31:34 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 18:31:37 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 18:31:37 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'existsById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 18:31:37 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'getOne' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 18:31:38 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+02-07-2023 18:31:39 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1/order-service] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:312)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:285)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:272)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:224)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:888)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.esoft.orderservice.helper.jwt.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 18:31:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:32:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:32:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:33:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:33:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:34:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:34:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:35:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:35:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:36:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:36:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:37:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:37:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:38:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:38:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:39:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:39:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:40:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:40:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:41:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:41:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:42:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:42:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:43:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:43:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:44:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:44:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:45:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:45:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:46:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:46:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:47:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:47:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:48:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:48:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:49:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:49:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:50:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:50:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:51:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:51:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:52:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:52:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:53:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:53:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:54:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:54:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:55:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:55:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:56:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:56:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:57:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:57:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:58:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:58:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:59:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 18:59:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:00:15 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3862422a: (connection has passed maxLifetime)
+02-07-2023 19:00:15 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@a9d9a1: (connection has passed maxLifetime)
+02-07-2023 19:00:18 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6516fae0
+02-07-2023 19:00:20 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@28c1faf5: (connection has passed maxLifetime)
+02-07-2023 19:00:20 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7289d45f
+02-07-2023 19:00:20 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 19:00:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 19:00:27 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@391ac4aa
+02-07-2023 19:00:27 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:00:30 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@105bfd3b: (connection has passed maxLifetime)
+02-07-2023 19:00:32 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2e1cbfbd
+02-07-2023 19:00:40 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@65a0f50c: (connection has passed maxLifetime)
+02-07-2023 19:00:40 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@55470a13: (connection has passed maxLifetime)
+02-07-2023 19:00:44 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@37e83522: (connection has passed maxLifetime)
+02-07-2023 19:00:45 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3ec182d5: (connection has passed maxLifetime)
+02-07-2023 19:00:47 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@73e8f19f
+02-07-2023 19:00:49 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@180a611e
+02-07-2023 19:00:49 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+02-07-2023 19:00:50 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@17c1379b
+02-07-2023 19:00:50 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 19:00:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 19:00:52 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7ed89084
+02-07-2023 19:00:52 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:00:53 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@550f0fa3: (connection has passed maxLifetime)
+02-07-2023 19:01:00 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@38b97369
+02-07-2023 19:01:01 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@a8dde52: (connection has passed maxLifetime)
+02-07-2023 19:01:08 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@12912663
+02-07-2023 19:01:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:01:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:02:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:02:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:03:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:03:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:04:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:04:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:05:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:05:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:06:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:06:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:07:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:07:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:08:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:08:50 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:09:20 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:09:51 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:10:21 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:10:51 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:11:21 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:11:51 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:12:21 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:12:51 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:26:33 WARN  HikariPool:758 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m42s252ms190µs800ns).
+02-07-2023 19:26:33 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:27:03 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@6516fae0 (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6516fae0: (connection is dead)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@7289d45f (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6516fae0 failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@391ac4aa (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7289d45f: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7289d45f failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2e1cbfbd (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@391ac4aa: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@391ac4aa failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2e1cbfbd: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2e1cbfbd failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@73e8f19f (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@73e8f19f: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@73e8f19f failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@180a611e (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@180a611e: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@180a611e failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@17c1379b (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@17c1379b: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@17c1379b failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@7ed89084 (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ed89084: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ed89084 failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@38b97369 (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@38b97369: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@38b97369 failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:11 WARN  PoolBase:173 - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@12912663 (No operations allowed after connection closed.)
+02-07-2023 19:27:11 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@12912663: (connection is dead)
+02-07-2023 19:27:11 DEBUG PoolBase:136 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@12912663 failed
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:27:14 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@456da248
+02-07-2023 19:27:16 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 19:27:41 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+02-07-2023 19:28:11 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5110110b
+02-07-2023 19:28:11 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+02-07-2023 19:28:14 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=2, active=1, idle=1, waiting=0)
+02-07-2023 19:28:31 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2e953aa5
+02-07-2023 19:29:16 WARN  HikariPool:758 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s517ms677µs700ns).
+02-07-2023 19:29:16 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=3, active=1, idle=2, waiting=0)
+02-07-2023 19:29:16 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1/order-service] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:312)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:285)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:272)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:224)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:888)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.esoft.orderservice.helper.jwt.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:29:18 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@699a9e34
+02-07-2023 19:29:18 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+02-07-2023 19:29:20 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@78ada294
+02-07-2023 19:29:20 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+02-07-2023 19:29:22 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2803c776
+02-07-2023 19:29:22 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+02-07-2023 19:29:23 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@507f36d4
+02-07-2023 19:29:23 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+02-07-2023 19:29:25 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 19:29:36 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1/order-service] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:312)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:285)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:272)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:224)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:888)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.esoft.orderservice.helper.jwt.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:29:36 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@78ba41f7
+02-07-2023 19:29:36 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+02-07-2023 19:29:38 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@59732afb
+02-07-2023 19:29:38 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+02-07-2023 19:29:40 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@341d4fb3
+02-07-2023 19:29:40 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:29:46 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:30:16 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:30:46 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:30:53 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 19:31:59 WARN  HikariPool:758 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s937ms476µs500ns).
+02-07-2023 19:31:59 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+02-07-2023 19:31:59 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1/order-service] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.esoft.orderservice.model.Order_$$_jvstbf4_1["handler"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:312)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:285)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:272)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:224)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:888)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.esoft.orderservice.helper.jwt.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:31:59 INFO  HikariDataSource:381 - HikariPool-1 - Shutdown initiated...
+02-07-2023 19:31:59 DEBUG HikariPool:404 - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@456da248: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5110110b: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2e953aa5: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@699a9e34: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@78ada294: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2803c776: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@507f36d4: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@78ba41f7: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@59732afb: (connection evicted)
+02-07-2023 19:31:59 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@341d4fb3: (connection evicted)
+02-07-2023 19:31:59 DEBUG HikariPool:404 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+02-07-2023 19:31:59 INFO  HikariDataSource:383 - HikariPool-1 - Shutdown completed.
+02-07-2023 19:32:16 DEBUG RepositoryConfigurationDelegate:121 - Scanning for repositories in packages com.esoft.orderservice.
+02-07-2023 19:32:16 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: orderRepo - Interface: com.esoft.orderservice.repo.OrderRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 19:32:16 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: userRepo - Interface: com.esoft.orderservice.repo.UserRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 19:32:16 DEBUG RepositoryConfigurationDelegate:153 - Finished repository scanning.
+02-07-2023 19:32:18 INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+02-07-2023 19:32:18 INFO  StandardService:180 - Starting service [Tomcat]
+02-07-2023 19:32:18 INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+02-07-2023 19:32:18 INFO  AprLifecycleListener:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\SETUPS\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;F:\WORKS\INTEGRO\apache-ant-1.9.7\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;.]
+02-07-2023 19:32:18 INFO  [/api/v1/order-service]:180 - Initializing Spring embedded WebApplicationContext
+02-07-2023 19:32:18 DEBUG HikariConfig:495 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: api#v1#order-service
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@33972216
+
+02-07-2023 19:32:19 DEBUG HikariConfig:1119 - HikariPool-1 - configuration:
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - allowPoolSuspension.............false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - autoCommit......................true
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - catalog.........................none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - connectionInitSql...............none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - connectionTestQuery.............none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - connectionTimeout...............30000
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - dataSource......................none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - dataSourceClassName.............none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - dataSourceJNDI..................none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - dataSourceProperties............{password=<masked>}
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - driverClassName................."com.mysql.jdbc.Driver"
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - healthCheckProperties...........{}
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - healthCheckRegistry.............none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - idleTimeout.....................600000
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - initializationFailFast..........true
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - initializationFailTimeout.......1
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - isolateInternalQueries..........false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - jdbc4ConnectionTest.............false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - jdbcUrl.........................jdbc:mysql://db4free.net:3306/e_odr_db?useSSL=false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - leakDetectionThreshold..........0
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - maxLifetime.....................1800000
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - maximumPoolSize.................10
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - metricRegistry..................none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - metricsTrackerFactory...........none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - minimumIdle.....................10
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - password........................<masked>
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - poolName........................"HikariPool-1"
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - readOnly........................false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - registerMbeans..................false
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - scheduledExecutor...............none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - scheduledExecutorService........internal
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - schema..........................none
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - threadFactory...................internal
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - transactionIsolation............default
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - username........................"esoft_ad"
+02-07-2023 19:32:19 DEBUG HikariConfig:1151 - validationTimeout...............5000
+02-07-2023 19:32:19 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+02-07-2023 19:32:26 DEBUG HikariPool:538 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6030b638
+02-07-2023 19:32:26 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+02-07-2023 19:32:26 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02-07-2023 19:32:31 DEBUG JpaMetamodelMappingContextFactoryBean:77 - Initializing JpaMetamodelMappingContext…
+02-07-2023 19:32:31 DEBUG JpaMetamodelMappingContextFactoryBean:84 - Finished initializing JpaMetamodelMappingContext!
+02-07-2023 19:32:31 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.UserRepo…
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method findByUsername
+02-07-2023 19:32:31 DEBUG NamedQuery:138 - Looking up named query User.findByUsername
+02-07-2023 19:32:31 DEBUG NamedQuery:119 - Did not find named query User.findByUsername
+02-07-2023 19:32:31 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.UserRepo.
+02-07-2023 19:32:31 WARN  [/api/v1/order-service]:180 - Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [DC948FB531FC730E142361BEF656B6AB]
+02-07-2023 19:32:31 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.OrderRepo…
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrder
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method findByUserId
+02-07-2023 19:32:31 DEBUG NamedQuery:138 - Looking up named query Order.findByUserId
+02-07-2023 19:32:31 DEBUG NamedQuery:119 - Did not find named query Order.findByUserId
+02-07-2023 19:32:31 DEBUG JpaQueryFactory:55 - Looking up query for method countOrder
+02-07-2023 19:32:31 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.OrderRepo.
+02-07-2023 19:32:33 DEBUG Loggers$LoggerFactory:213 - Using Slf4j logging framework
+02-07-2023 19:32:33 DEBUG Hooks:213 - Enabling stacktrace debugging via onOperatorDebug
+02-07-2023 19:32:33 DEBUG Hooks:218 - Hooking onEachOperator: onOperatorDebug
+02-07-2023 19:32:34 INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+02-07-2023 19:32:34 INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+02-07-2023 19:32:34 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@439c3450
+02-07-2023 19:32:36 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1345781f
+02-07-2023 19:32:39 INFO  [/api/v1/order-service]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+02-07-2023 19:32:39 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 19:32:41 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 19:32:42 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'existsById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 19:32:49 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+02-07-2023 19:32:49 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1984c1d9
+02-07-2023 19:32:54 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@72fa652e
+02-07-2023 19:33:18 WARN  HikariPool:758 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s316ms48µs900ns).
+02-07-2023 19:33:18 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=5, active=1, idle=4, waiting=0)
+02-07-2023 19:33:18 DEBUG PoolBase:379 - HikariPool-1 - Failed to create/setup connection: Got timeout reading communication packets
+02-07-2023 19:33:18 DEBUG HikariPool:480 - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Got timeout reading communication packets
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+02-07-2023 19:33:18 INFO  HikariDataSource:381 - HikariPool-1 - Shutdown initiated...
+02-07-2023 19:33:18 DEBUG HikariPool:404 - HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+02-07-2023 19:33:18 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6030b638: (connection evicted)
+02-07-2023 19:33:18 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@439c3450: (connection evicted)
+02-07-2023 19:33:18 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1345781f: (connection evicted)
+02-07-2023 19:33:18 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1984c1d9: (connection evicted)
+02-07-2023 19:33:18 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@72fa652e: (connection evicted)
+02-07-2023 19:33:18 DEBUG HikariPool:404 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+02-07-2023 19:33:18 INFO  HikariDataSource:383 - HikariPool-1 - Shutdown completed.
+02-07-2023 19:33:25 DEBUG RepositoryConfigurationDelegate:121 - Scanning for repositories in packages com.esoft.orderservice.
+02-07-2023 19:33:25 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: orderRepo - Interface: com.esoft.orderservice.repo.OrderRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 19:33:25 DEBUG RepositoryConfigurationDelegate:142 - Spring Data JPA - Registering repository: userRepo - Interface: com.esoft.orderservice.repo.UserRepo - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+02-07-2023 19:33:25 DEBUG RepositoryConfigurationDelegate:153 - Finished repository scanning.
+02-07-2023 19:33:27 INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+02-07-2023 19:33:27 INFO  StandardService:180 - Starting service [Tomcat]
+02-07-2023 19:33:27 INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+02-07-2023 19:33:27 INFO  AprLifecycleListener:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\SETUPS\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;F:\WORKS\INTEGRO\apache-ant-1.9.7\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;D:\Workplace\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;.]
+02-07-2023 19:33:27 INFO  [/api/v1/order-service]:180 - Initializing Spring embedded WebApplicationContext
+02-07-2023 19:33:28 DEBUG HikariConfig:495 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: api#v1#order-service
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@cb903b8
+
+02-07-2023 19:33:28 DEBUG HikariConfig:1119 - HikariPool-1 - configuration:
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - allowPoolSuspension.............false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - autoCommit......................true
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - catalog.........................none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - connectionInitSql...............none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - connectionTestQuery.............none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - connectionTimeout...............30000
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - dataSource......................none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - dataSourceClassName.............none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - dataSourceJNDI..................none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - dataSourceProperties............{password=<masked>}
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - driverClassName................."com.mysql.jdbc.Driver"
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - healthCheckProperties...........{}
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - healthCheckRegistry.............none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - idleTimeout.....................600000
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - initializationFailFast..........true
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - initializationFailTimeout.......1
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - isolateInternalQueries..........false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - jdbc4ConnectionTest.............false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - jdbcUrl.........................jdbc:mysql://db4free.net:3306/e_odr_db?useSSL=false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - leakDetectionThreshold..........0
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - maxLifetime.....................1800000
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - maximumPoolSize.................10
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - metricRegistry..................none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - metricsTrackerFactory...........none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - minimumIdle.....................10
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - password........................<masked>
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - poolName........................"HikariPool-1"
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - readOnly........................false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - registerMbeans..................false
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - scheduledExecutor...............none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - scheduledExecutorService........internal
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - schema..........................none
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - threadFactory...................internal
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - transactionIsolation............default
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - username........................"esoft_ad"
+02-07-2023 19:33:28 DEBUG HikariConfig:1151 - validationTimeout...............5000
+02-07-2023 19:33:28 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+02-07-2023 19:33:30 DEBUG HikariPool:538 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2f773541
+02-07-2023 19:33:30 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+02-07-2023 19:33:31 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+02-07-2023 19:33:32 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3047620
+02-07-2023 19:33:34 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@45b8e081
+02-07-2023 19:33:34 DEBUG JpaMetamodelMappingContextFactoryBean:77 - Initializing JpaMetamodelMappingContext…
+02-07-2023 19:33:34 DEBUG JpaMetamodelMappingContextFactoryBean:84 - Finished initializing JpaMetamodelMappingContext!
+02-07-2023 19:33:34 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.UserRepo…
+02-07-2023 19:33:34 DEBUG JpaQueryFactory:55 - Looking up query for method findByUsername
+02-07-2023 19:33:34 DEBUG NamedQuery:138 - Looking up named query User.findByUsername
+02-07-2023 19:33:34 DEBUG NamedQuery:119 - Did not find named query User.findByUsername
+02-07-2023 19:33:35 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.UserRepo.
+02-07-2023 19:33:35 WARN  [/api/v1/order-service]:180 - Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [205BDB3DDDBE16BB5EC07404566085B3]
+02-07-2023 19:33:35 DEBUG RepositoryFactorySupport:292 - Initializing repository instance for com.esoft.orderservice.repo.OrderRepo…
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrder
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method getRevenueOrderByPeriod
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method countOrderByPeriod
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method findByUserId
+02-07-2023 19:33:35 DEBUG NamedQuery:138 - Looking up named query Order.findByUserId
+02-07-2023 19:33:35 DEBUG NamedQuery:119 - Did not find named query Order.findByUserId
+02-07-2023 19:33:35 DEBUG JpaQueryFactory:55 - Looking up query for method countOrder
+02-07-2023 19:33:35 DEBUG RepositoryFactorySupport:331 - Finished creation of repository instance for com.esoft.orderservice.repo.OrderRepo.
+02-07-2023 19:33:36 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@76d47a93
+02-07-2023 19:33:36 DEBUG Loggers$LoggerFactory:213 - Using Slf4j logging framework
+02-07-2023 19:33:36 DEBUG Hooks:213 - Enabling stacktrace debugging via onOperatorDebug
+02-07-2023 19:33:36 DEBUG Hooks:218 - Hooking onEachOperator: onOperatorDebug
+02-07-2023 19:33:37 INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+02-07-2023 19:33:37 INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+02-07-2023 19:33:38 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5b70b649
+02-07-2023 19:33:45 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@70e35fad
+02-07-2023 19:33:47 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@ad6d534
+02-07-2023 19:33:48 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@264fde54
+02-07-2023 19:33:50 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6ecff722
+02-07-2023 19:33:52 DEBUG HikariPool:702 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2b245aee
+02-07-2023 19:33:52 DEBUG HikariPool:404 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:34:01 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:34:31 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:35:01 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+02-07-2023 19:35:23 INFO  [/api/v1/order-service]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+02-07-2023 19:35:24 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 19:35:26 INFO  OrderController:49 - updateOrder user User(id=2, username=esoft_user, password=$2a$10$Yk.NhA7R8yd.Rn5nvVcB1uLvcYUilj4m0bsVOEhxtsVLv/B/ih1Uq, enabled=true, authorities=[Authority(id=2, authority=ROLE_USER, userId=2)])
+02-07-2023 19:35:26 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'existsById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+02-07-2023 19:35:43 DEBUG HikariPool:404 - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+02-07-2023 19:35:43 DEBUG TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource:355 - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+02-07-2023 19:35:43 INFO  HikariDataSource:381 - HikariPool-1 - Shutdown initiated...
+02-07-2023 19:35:43 DEBUG HikariPool:404 - HikariPool-1 - Before shutdown stats (total=10, active=1, idle=9, waiting=0)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3047620: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@45b8e081: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@76d47a93: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5b70b649: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@70e35fad: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@ad6d534: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@264fde54: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6ecff722: (connection evicted)
+02-07-2023 19:35:43 DEBUG PoolBase:127 - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2b245aee: (connection evicted)
+02-07-2023 19:35:43 DEBUG HikariPool:404 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+02-07-2023 19:35:43 INFO  HikariDataSource:383 - HikariPool-1 - Shutdown completed.
+02-07-2023 19:35:43 WARN  ProxyConnection:161 - HikariPool-1 - Connection com.mysql.jdbc.JDBC4Connection@2f773541 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 16,597 milliseconds ago.  The last packet sent successfully to the server was 53 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3905)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2011)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2168)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1931)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1893)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:938)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:341)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:311)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2282)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:61)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:51)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4121)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:508)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:478)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:219)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:278)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:121)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:89)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1240)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:204)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2842)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2816)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1081)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:290)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:884)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:870)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy115.merge(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:305)
+	at com.sun.proxy.$Proxy115.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy132.save(Unknown Source)
+	at com.esoft.orderservice.service.OrderService.update(OrderService.java:44)
+	at com.esoft.orderservice.service.OrderService$$FastClassBySpringCGLIB$$accd029b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.esoft.orderservice.service.OrderService$$EnhancerBySpringCGLIB$$d9a8aceb.update(<generated>)
+	at com.esoft.orderservice.controller.OrderController.updateOrder(OrderController.java:50)
+	at com.esoft.orderservice.controller.OrderController$$FastClassBySpringCGLIB$$86f52733.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.esoft.orderservice.controller.OrderController$$EnhancerBySpringCGLIB$$e040f.updateOrder(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:888)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.esoft.orderservice.helper.jwt.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:101)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:144)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:174)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3472)
+	... 184 more
+02-07-2023 19:35:43 DEBUG HikariConfig:495 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: api#v1#order-service
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@cb903b8
+
+02-07-2023 19:35:43 DEBUG HikariConfig:1119 - HikariPool-2 - configuration:
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - allowPoolSuspension.............false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - autoCommit......................true
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - catalog.........................none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - connectionInitSql...............none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - connectionTestQuery.............none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - connectionTimeout...............30000
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - dataSource......................none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - dataSourceClassName.............none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - dataSourceJNDI..................none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - dataSourceProperties............{password=<masked>}
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - driverClassName................."com.mysql.jdbc.Driver"
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - healthCheckProperties...........{}
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - healthCheckRegistry.............none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - idleTimeout.....................600000
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - initializationFailFast..........true
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - initializationFailTimeout.......1
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - isolateInternalQueries..........false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - jdbc4ConnectionTest.............false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - jdbcUrl.........................jdbc:mysql://db4free.net:3306/e_odr_db?useSSL=false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - leakDetectionThreshold..........0
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - maxLifetime.....................1800000
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - maximumPoolSize.................10
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - metricRegistry..................none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - metricsTrackerFactory...........none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - minimumIdle.....................10
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - password........................<masked>
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - poolName........................"HikariPool-2"
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - readOnly........................false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - registerMbeans..................false
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - scheduledExecutor...............none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - scheduledExecutorService........internal
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - schema..........................none
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - threadFactory...................internal
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - transactionIsolation............default
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - username........................"esoft_ad"
+02-07-2023 19:35:43 DEBUG HikariConfig:1151 - validationTimeout...............5000
+02-07-2023 19:35:43 INFO  HikariDataSource:110 - HikariPool-2 - Starting...
+02-07-2023 19:35:45 DEBUG HikariPool:538 - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@5f77dd8
+02-07-2023 19:35:45 INFO  HikariDataSource:123 - HikariPool-2 - Start completed.
+02-07-2023 19:35:45 ERROR OrderController:53 - Session/EntityManager is closed
+02-07-2023 19:35:45 DEBUG HikariPool:404 - HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
