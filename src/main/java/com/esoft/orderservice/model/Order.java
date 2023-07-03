@@ -1,6 +1,7 @@
 package com.esoft.orderservice.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +12,7 @@ import java.util.Date;
 @Entity
 @Table(name = "esoft_order")
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {

@@ -40,6 +40,7 @@ CREATE TABLE esoft_order (
     category ENUM('LUXURY', 'SUPER_LUXURY', 'SUPREME_LUXURY'),
     service_name ENUM('PHOTO_EDITING', 'VIDEO_EDITING'),
     create_at date,
+    quantity bigint,
     description  varchar(255),
     note varchar(255),
     price DECIMAL(19,2) DEFAULT 0
