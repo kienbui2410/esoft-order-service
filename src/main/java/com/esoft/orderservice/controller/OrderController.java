@@ -21,7 +21,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-//@RequestMapping("/orders")
+@RequestMapping("/orders")
 @Slf4j
 public class OrderController {
 
@@ -31,7 +31,7 @@ public class OrderController {
     OrderService orderService;
 
     @TrackExecutionTime
-    @PostMapping("/orders")
+    @PostMapping
     public ResponseEntity<Order> createOrder(@Valid  @RequestBody Order order) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -44,7 +44,7 @@ public class OrderController {
         }
     }
 
-    @PutMapping("/orders")
+    @PutMapping
     public ResponseEntity<Order> updateOrder(@Valid @RequestBody Order order) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -57,7 +57,7 @@ public class OrderController {
         }
     }
 
-    @DeleteMapping("/orders/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<HttpStatus> deleteOrder(@PathVariable("id") long orderId) {
         try {
             User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
@@ -85,7 +85,7 @@ public class OrderController {
 //    }
 
     @TrackExecutionTime
-    @GetMapping("/orders")
+    @GetMapping
     public OrderResponse getAllOrderPagination(
             @RequestParam(value = "pageNo", defaultValue = AppConstants.DEFAULT_PAGE_NUMBER, required = false) int pageNo,
             @RequestParam(value = "pageSize", defaultValue = AppConstants.DEFAULT_PAGE_SIZE, required = false) int pageSize,
