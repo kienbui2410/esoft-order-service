@@ -54,27 +54,29 @@ Before you continue, ensure you meet the following requirements:
 
 # Deployment
 
-1. Checkout source code from repo to new folder ( Example: esoft-order-service)
+1. Checkout source code from repo to new folder ( esoft-order-service)
 
     `git clone https://github.com/kienbui2410/esoft-order-service.git`
 
-2. From the folder ( esoft-order-service ), run docker compose to deploy services
+2. From the folder source code( esoft-order-service ), run docker compose to deploy services
 
     `docker-compose up -d`
 
-    After docker container is started successfully, there are 2 services up:
+    After docker container is started successfully, there are 2 services up( *./docs/docker up.PNG*):
     * order service: port 6868
     * mysql service: port 3307
 
 3. Connect to mysql server: *jdbc:mysql://root:123456@localhost:3307/e_order_db*
 
-    run file *./scripts/sql/InitialSetup/000_createSchema.sql* to setup database
+    run file *./scripts/sql/InitialSetup/000_createSchema.sql* to setup database ( *./docs/database.PNG*)
 
 # Use
 
-1. Get jwt token by the API ( expired in 7 days )
+1. Get jwt token by the API ( expired in 7 days, *./docs/get token.PNG* )
 
     *localhost:6868/api/v1/order-service/users/token*
 
 2. Use the token for other APIs 
+
+3. Test with Postman ( *./docs/ESOFT ORDER.postman_collection.json*)
 

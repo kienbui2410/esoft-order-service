@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "45c3cbaf-18b8-42a1-8bd4-703e03852669",
+		"name": "ESOFT ORDER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4620684"
+	},
+	"item": [
+		{
+			"name": "API for customer",
+			"item": [
+				{
+					"name": "order list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjg4MTQxMzA0LCJleHAiOjE2ODg3NDYxMDR9.r4da_yw19xThPpD2H01Mj4KvbbBwm4_1VBTiU-Mg_U9meYBC4WvzAbL9wzipnLN9i6FtyyQ-LmQj1BUyBWQJVw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/orders?pageSize=5&pageNo=0&sortBy=id&sortDir=asc",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "pageSize",
+									"value": "5"
+								},
+								{
+									"key": "pageNo",
+									"value": "0"
+								},
+								{
+									"key": "sortBy",
+									"value": "id"
+								},
+								{
+									"key": "sortDir",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "order create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjg4MTQxMzA0LCJleHAiOjE2ODg3NDYxMDR9.r4da_yw19xThPpD2H01Mj4KvbbBwm4_1VBTiU-Mg_U9meYBC4WvzAbL9wzipnLN9i6FtyyQ-LmQj1BUyBWQJVw",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"category\":\"SUPREME_LUXURY\",\r\n    \"quantity\":\"2\",\r\n    \"serviceName\":\"VIDEO_EDITING\",\r\n    \"desc\":\"test\",\r\n    \"note\":\"test\",\r\n    \"price\":900000\r\n}"
+						},
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/orders",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete order",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjg4MTQxMzA0LCJleHAiOjE2ODg3NDYxMDR9.r4da_yw19xThPpD2H01Mj4KvbbBwm4_1VBTiU-Mg_U9meYBC4WvzAbL9wzipnLN9i6FtyyQ-LmQj1BUyBWQJVw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/orders/16",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"orders",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update order",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjg4MTQxMzA0LCJleHAiOjE2ODg3NDYxMDR9.r4da_yw19xThPpD2H01Mj4KvbbBwm4_1VBTiU-Mg_U9meYBC4WvzAbL9wzipnLN9i6FtyyQ-LmQj1BUyBWQJVw",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 2,\r\n        \"ref\": \"12345657\",\r\n        \"userId\": 2,\r\n        \"category\": \"SUPREME_LUXURY\",\r\n        \"quantity\": 2,\r\n        \"serviceName\": \"PHOTO_EDITING\",\r\n        \"createdAt\": \"2023-07-29T17:00:00.000+0000\",\r\n        \"desc\": \"test edited\",\r\n        \"note\": \"test edited\",\r\n        \"price\": 10000\r\n    }"
+						},
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/orders",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API for admin",
+			"item": [
+				{
+					"name": "number of order",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjg4NDM3MDYxLCJleHAiOjE2ODkwNDE4NjF9.RKd9VOu585E3pW62XqrGainrBafgoDRtzGJoLFcsNSDMdbBes4n6Wp9sVWEQAuxC3Iq1gaD5QNnzL1FCwXIduA",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/reports/users/2/order-number",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"reports",
+								"users",
+								"2",
+								"order-number"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get revenue",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjg4NDM3MDYxLCJleHAiOjE2ODkwNDE4NjF9.RKd9VOu585E3pW62XqrGainrBafgoDRtzGJoLFcsNSDMdbBes4n6Wp9sVWEQAuxC3Iq1gaD5QNnzL1FCwXIduA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/reports/users/2/revenue",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"reports",
+								"users",
+								"2",
+								"revenue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get summary by time",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjg4NDM3MDYxLCJleHAiOjE2ODkwNDE4NjF9.RKd9VOu585E3pW62XqrGainrBafgoDRtzGJoLFcsNSDMdbBes4n6Wp9sVWEQAuxC3Iq1gaD5QNnzL1FCwXIduA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/reports/order-revenue-summary/year/2023/month7",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"reports",
+								"order-revenue-summary",
+								"year",
+								"2023",
+								"month7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API to get token",
+			"item": [
+				{
+					"name": "login get token role admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"esoft_admin\",\r\n    \"password\":\"password1\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/users/token",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"users",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login get token role user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"esoft_user\",\r\n    \"password\":\"password1\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "localhost:6868/api/v1/order-service/users/token",
+							"host": [
+								"localhost"
+							],
+							"port": "6868",
+							"path": [
+								"api",
+								"v1",
+								"order-service",
+								"users",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
