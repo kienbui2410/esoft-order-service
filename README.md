@@ -31,6 +31,8 @@
     *DELETE /api/v1/order-service/orders/{id}* -> delete order
 
     *GET /api/v1/order-service/orders*  -> get all orders
+    
+    *GET /api/v1/order-service/orders?pageSize=5&pageNo=0&sortBy=id&sortDir=asc*  -> get all orders with pagination
 
 3. API for admin ( only access for role admin. Example: esoft_admin/password1 )
 

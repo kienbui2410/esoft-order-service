@@ -2,6 +2,8 @@ package com.esoft.orderservice.controller;
 
 
 import com.esoft.orderservice.aspect.TrackExecutionTime;
+import com.esoft.orderservice.common.AppConstants;
+import com.esoft.orderservice.helper.payload.OrderResponse;
 import com.esoft.orderservice.model.CustomUserDetails;
 import com.esoft.orderservice.model.Order;
 import com.esoft.orderservice.model.User;
@@ -68,18 +70,29 @@ public class OrderController {
         }
     }
 
+//    @TrackExecutionTime
+//    @GetMapping("/orders")
+//    public ResponseEntity<List<Order>> getAllOrder(){
+//        try{
+//            User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
+//            logger.info("listByUserId user " + user);
+//            List<Order> list =  orderService.listByUserId(user.getId());
+//            return new ResponseEntity<>(list, HttpStatus.OK);
+//        } catch (Exception e) {
+//            logger.error(e.getMessage());
+//            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+//        }
+//    }
+
     @TrackExecutionTime
     @GetMapping("/orders")
-    public ResponseEntity<List<Order>> listByUserId(){
-        try{
-            User user = ((CustomUserDetails)SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
-            logger.info("listByUserId user " + user);
-            List<Order> list =  orderService.listByUserId(user.getId());
-            return new ResponseEntity<>(list, HttpStatus.OK);
-        } catch (Exception e) {
-            logger.error(e.getMessage());
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public OrderResponse getAllOrderPagination(
+            @RequestParam(value = "pageNo", defaultValue = AppConstants.DEFAULT_PAGE_NUMBER, required = false) int pageNo,
+            @RequestParam(value = "pageSize", defaultValue = AppConstants.DEFAULT_PAGE_SIZE, required = false) int pageSize,
+            @RequestParam(value = "sortBy", defaultValue = AppConstants.DEFAULT_SORT_BY, required = false) String sortBy,
+            @RequestParam(value = "sortDir", defaultValue = AppConstants.DEFAULT_SORT_DIRECTION, required = false) String sortDir
+    ){
+        return orderService.list(pageNo, pageSize, sortBy, sortDir);
     }
 
 }

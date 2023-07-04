@@ -1,17 +1,23 @@
 package com.esoft.orderservice.service;
 
 import com.esoft.orderservice.common.DateUtil;
+import com.esoft.orderservice.helper.payload.OrderResponse;
 import com.esoft.orderservice.model.Order;
 import com.esoft.orderservice.model.User;
 import com.esoft.orderservice.repo.OrderRepo;
 import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class OrderService {
@@ -66,6 +72,32 @@ public class OrderService {
 
     public List<Order> list(){
         return orderRepo.findAll();
+    }
+
+    public OrderResponse list(int pageNo, int pageSize, String sortBy, String sortDir) {
+
+        Sort sort = sortDir.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortBy).ascending()
+                : Sort.by(sortBy).descending();
+
+        // create Pageable instance
+        Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
+
+        Page<Order> orders = orderRepo.findAll(pageable);
+
+        // get content for page object
+        List<Order> listOfOrders = orders.getContent();
+
+        List<Order> content= listOfOrders.stream().collect(Collectors.toList());
+
+        OrderResponse orderResponse = new OrderResponse();
+        orderResponse.setContent(content);
+        orderResponse.setPageNo(orders.getNumber());
+        orderResponse.setPageSize(orders.getSize());
+        orderResponse.setTotalElements(orders.getTotalElements());
+        orderResponse.setTotalPages(orders.getTotalPages());
+        orderResponse.setLast(orders.isLast());
+
+        return orderResponse;
     }
 
     public List<Order> listByUserId(Long userId){
