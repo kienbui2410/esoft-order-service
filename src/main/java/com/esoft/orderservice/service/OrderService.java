@@ -1,17 +1,15 @@
 package com.esoft.orderservice.service;
 
 import com.esoft.orderservice.common.DateUtil;
-import com.esoft.orderservice.helper.payload.OrderResponse;
+import com.esoft.orderservice.model.payload.OrderResponse;
 import com.esoft.orderservice.model.Order;
 import com.esoft.orderservice.model.User;
 import com.esoft.orderservice.repo.OrderRepo;
-import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -43,7 +41,8 @@ public class OrderService {
     @Transactional
     public Order update(Order order, User user) throws Exception{
         if(orderRepo.existsById(order.getId())) {
-            if(order.getUserId().compareTo(user.getId()) == 0) {
+            Order orderDb = orderRepo.getOne(order.getId());
+            if(orderDb.getUserId().compareTo(user.getId()) == 0) {
 //                Order orderDb = orderRepo.getOne(order.getId());
 //                order.setRef(orderDb.getRef());
 //                order.setCreatedAt(orderDb.getCreatedAt());
@@ -59,8 +58,8 @@ public class OrderService {
     @Transactional
     public void delete(Long orderId, User user) throws Exception{
         if(orderRepo.existsById(orderId)) {
-            Order order = orderRepo.getOne(orderId);
-            if(order.getUserId().compareTo(user.getId()) == 0) {
+            Order orderDb = orderRepo.getOne(orderId);
+            if(orderDb.getUserId().compareTo(user.getId()) == 0) {
                 orderRepo.deleteById(orderId);
             }else{
                 throw new Exception("Order is not belong to the user "+user.getUsername());
@@ -117,7 +116,11 @@ public class OrderService {
     }
 
     public Long getRevenueOrder(Long userId){
-        return orderRepo.getRevenueOrder(userId);
+        Long revenue = orderRepo.getRevenueOrder(userId);
+        if(revenue == null)
+            return 0L;
+        else
+            return revenue;
     }
 
     public Long getRevenueOrderByPeriod(Integer year){

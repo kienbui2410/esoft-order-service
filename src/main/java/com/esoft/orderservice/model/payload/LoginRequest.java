@@ -1,11 +1,13 @@
-package com.esoft.orderservice.helper.payload;
+package com.esoft.orderservice.model.payload;
 
 import javax.validation.constraints.NotBlank;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class LoginRequest {
+public class LoginRequest  implements Serializable {
     @NotBlank
     private String username;
 

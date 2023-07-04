@@ -103,10 +103,16 @@ public class OrderServiceTest {
                 .price(new BigDecimal("100000"))
                 .build();
 
+        Order mockOrderDb = Order.builder()
+                .id(1L)
+                .userId(1L)
+                .build();
+
         User mockUser = new User();
         mockUser.setId(2L);
 
         Mockito.when(orderRepo.existsById(Mockito.any(Long.class))).thenReturn(true);
+        Mockito.when(orderRepo.getOne(mockOrder.getId())).thenReturn(mockOrderDb);
 
         try {
             Order order = orderService.update(mockOrder, mockUser);
