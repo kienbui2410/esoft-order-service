@@ -68,6 +68,8 @@ Before you continue, ensure you meet the following requirements:
 
 3. Connect to mysql server: *jdbc:mysql://root:123456@localhost:3307/e_order_db*
 
+	if database e_order_db is not existed, create it first
+
     run file *./scripts/sql/InitialSetup/000_createSchema.sql* to setup database ( *./docs/database.PNG*)
 
 # Use
