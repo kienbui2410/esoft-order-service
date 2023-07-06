@@ -47,5 +47,6 @@ CREATE TABLE esoft_order (
 );
 
 CREATE INDEX esoft_order_id ON esoft_order (id);
+ALTER TABLE esoft_order ADD UNIQUE(ref);
 
 COMMIT;
